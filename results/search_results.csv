@@ -1,0 +1,9 @@
+run_name,family,params,train_f1_macro,val_f1_macro,train_accuracy,val_accuracy,train_log_loss,val_log_loss
+RandomForest-cfg1,RandomForest,"{'n_estimators': 50, 'max_depth': 3, 'min_samples_split': 2}",0.9982,0.9665,0.9982,0.9653,0.1145,0.2055
+RandomForest-cfg2,RandomForest,"{'n_estimators': 100, 'max_depth': 5, 'min_samples_split': 2}",1.0,0.9789,1.0,0.9791,0.0541,0.163
+RandomForest-cfg3,RandomForest,"{'n_estimators': 100, 'max_depth': None, 'min_samples_split': 4}",1.0,0.9789,1.0,0.9791,0.0616,0.167
+RandomForest-cfg4,RandomForest,"{'n_estimators': 200, 'max_depth': 8, 'min_samples_split': 2}",1.0,0.9789,1.0,0.9791,0.0524,0.1665
+GradientBoosting-cfg1,GradientBoosting,"{'n_estimators': 50, 'learning_rate': 0.1, 'max_depth': 2}",1.0,0.9593,1.0,0.9581,0.0041,0.1477
+GradientBoosting-cfg2,GradientBoosting,"{'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 3}",1.0,0.9112,1.0,0.9094,0.0,0.4348
+GradientBoosting-cfg3,GradientBoosting,"{'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 3}",1.0,0.9181,1.0,0.9163,0.0013,0.2565
+GradientBoosting-cfg4,GradientBoosting,"{'n_estimators': 150, 'learning_rate': 0.05, 'max_depth': 2}",1.0,0.9515,1.0,0.9512,0.0005,0.1527
